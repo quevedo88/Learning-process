@@ -1,0 +1,15 @@
+https://autoprefixer.github.io/
+
+
+http://shouldiprefix.com/#max-height
+
+
+
+https://caniuse.com/
+
+
+
+https://www.w3schools.com/cssref/css3_browsersupport.asp
+
+
+https://darekkay.com/dev/flexbox-cheatsheet.html

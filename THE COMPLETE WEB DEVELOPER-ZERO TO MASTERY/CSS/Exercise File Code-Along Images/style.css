@@ -1,0 +1,37 @@
+body {
+	margin: 0px; /*the way to change the margin in tittle*/
+}
+.container {
+	display: flex;
+	flex-wrap: wrap; /*This property wrap the item around to additional lines*/
+	justify-content: center;
+}
+
+h1 {
+	font-family: time new roma;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow: 4px 5px 5px #888888;
+	-ms-box-shadow: 4px 5px 5px #888888;
+	-webkit-box-shadow: 4px 5px 5px #888888;
+	-o-box-shadow: 4px 5px 5px #888888;
+	box-shadow: 4px 5px 5px #888888;
+	margin-top: 10px;
+
+}
+
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s; /*What these properties do is say that I want the image to transition when an action is taken upon it.And I want all the properties to transition over one second And what's that transition going to be.Well when I hover I wanted to transform by a scale of one point one.So it's essentially growing. If I change this to four seconds and I refresh.
+Well now takes four seconds for the image to scale. You can see over here.*/
+}
+img:hover {
+	transform: scale(1.1);
+	animation-duration: 5s;
+}
