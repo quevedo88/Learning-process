@@ -15,7 +15,7 @@ var button = document.querySelector("button");
 	//if white
 		//make it orange
 	//else 
-	//make it orange
+	//make it white
 
 	
 	//document.body.style.background = "orange";
